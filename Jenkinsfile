@@ -1,7 +1,7 @@
 pipeline {
  agent any
   environment {
-    dockerimagename = "maheshcloud/nodeapp"
+    dockerimagename = "maheshcloud84/nodeapp"
     dockerImage = ""
   }
 
