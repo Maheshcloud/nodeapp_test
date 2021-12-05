@@ -1,17 +1,17 @@
 pipeline {
- agent any
+
   environment {
-    dockerimagename = "maheshcloud84/nodeapp"
+    dockerimagename = "maheshdte/nodeapp"
     dockerImage = ""
   }
 
-  
+  agent any
 
   stages {
 
     stage('Checkout Source') {
       steps {
-        git branch: 'master', url: 'https://github.com/Maheshcloud/nodeapp_test.git'
+        git 'https://github.com/maheshdte/nodeapp_test.git'
       }
     }
 
