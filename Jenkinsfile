@@ -11,7 +11,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git 'https://github.com/Maheshcloud/nodeapp_test.git'
+        git branch: 'master', url: 'https://github.com/Maheshcloud/nodeapp_test.git'
       }
     }
 
