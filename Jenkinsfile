@@ -1,11 +1,11 @@
 pipeline {
-
+ agent any
   environment {
     dockerimagename = "maheshcloud/nodeapp"
     dockerImage = ""
   }
 
-  agent any
+  
 
   stages {
 
