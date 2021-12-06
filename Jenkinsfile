@@ -1,7 +1,7 @@
 pipeline {
 
   environment {
-    dockerimagename = "maheshdte/nodeapp"
+    dockerimagename = "maheshcloud84/nodeapp"
     dockerImage = ""
   }
 
@@ -11,7 +11,7 @@ pipeline {
 
     stage('Checkout Source') {
       steps {
-        git 'https://github.com/maheshdte/nodeapp_test.git'
+        git 'https://github.com/Maheshcloud/nodeapp_test.git'
       }
     }
 
