@@ -45,7 +45,7 @@ pipeline {
       
       /* aws eks --region <region-code> update-kubeconfig --name <cluster_name> 
       To create .kube/config file
-      *./
+      */
     }
 
   }
